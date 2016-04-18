@@ -2,7 +2,7 @@
   "name": "Elliptical-micro",
   "description": "Minimal function custom element sugar",
   "version":"1.0.0",
-  "main": "",
+  "main": "Elliptical-micro.html",
   "authors": [
     "S. Francis"
   ],
