@@ -2,12 +2,10 @@
 <script>
     Elliptical.registerElement=function(tag){
         try{
-            if(document.createElement(tag).constructor !== HTMLElement) document.registerElement(tag);
+            document.registerElement(tag);
         }catch(ex){
+
         }
-
     };
-
     Elliptical.register=Elliptical.registerElement;
-
 </script>
